@@ -180,7 +180,9 @@ let pokemonList = [{
     if(document.querySelector(".nom.pokemon1").innerText == "pokemon 1"){
         alert("veuillez selectionner les pokemons");
     }else{
-      attaqueG()
+      document.querySelector(".selection").classList.add("disabled");
+      document.querySelector(".combat").classList.add("disabled");
+      attaqueG();
     }
  });
  

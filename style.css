@@ -119,3 +119,10 @@
   .combat:hover{
     font-size:30px;
   }
+
+  .disabled{
+    pointer-events: none;
+  }
+  *{
+    user-select: none;
+  }
