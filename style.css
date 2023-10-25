@@ -1,0 +1,122 @@
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    box-sizing:border-box;
+  }
+  body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+  }
+  .coter{
+    width:50vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .coter.g{
+     background-color:#6666ff;
+  }
+  .coter.d{
+    background-color:#f66;
+  }
+  
+  .nom{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size:40px;
+  }
+  
+  .imgContainer{
+    width:200px;
+    height:200px;
+    border:solid black 5px;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  .imgContainer img{
+   width:100%;
+   height:100%;
+   object-fit:cover;
+  }
+  
+  .vs{
+    position:absolute;
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size:60px;
+    z-index:2;
+  }
+  .vs h1:nth-child(1){
+    color:red;
+    transform:translatey(-10px);
+    margin:10px;
+  }
+  .vs h1:nth-child(2){
+    color:blue;
+     transform:translatey(10px);
+    margin:10px;
+  }
+  .hp{
+    font-size:25px;
+  }
+  
+  .boite.texte{
+    width:75%;
+    height:60px;
+    background-color:black;
+    color:white;
+    word-wrap: break-word;
+    padding:5px;
+    border:solid white 1px;
+    }
+  .eclair{
+    fill:yellow;
+    position:absolute;
+    width:200px;
+    height:200px;
+    z-index:1;
+  }
+  .wrapupBtn{
+    background-color: black;
+    width:100vw;
+    height:50px;
+    position: absolute;
+    top:0;
+    border: solid white 1px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .selection{
+    width:40%;
+    height:100%;
+    background-color:rgba(0, 0, 255,0%);
+    border: none;
+    color:white;
+    font-size:25px;
+    cursor: pointer;
+  }
+  .selection:hover{
+    font-size:30px;
+  }
+  .combat{
+    width:40%;
+    height:100%;
+    background-color:rgba(0, 0, 255,0%);
+    border: none;
+    color:white;
+    font-size:25px;
+    cursor: pointer;
+  }
+  .combat:hover{
+    font-size:30px;
+  }
