@@ -1,80 +1,84 @@
 let pokemonList = [{
     pokemon: {
-      nom: "William",
+      nom: "Emile",
       hp: 100,
-      image: "images/william",
+      image: "images/perso01.png",
       abiliter: [
-        {"attaque1":[30,"being roux"]},
-        {"attaque2":[25,"baté bateau"]},
-        {"attaque3": [20,"ta mère"]},
+        {"attaque1":[30,"joie"]},
+        {"attaque2":[25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
         {"attaque4": [10,"slap"]}
       ]
     }},{
     pokemon: {
-      nom: "Jérémy",
+      nom: "Eliott",
       hp: 100,
-      image:"images/jeremy",
+      image:"images/perso02.png",
        abiliter: [
-        {"attaque1": [30,"coup de guitare"]},
-        {"attaque2": [25,"etranglement avec cheveux"]},
-        {"attaque3": [20,"humour cassé"]},
+        {"attaque1": [30,"faché"]},
+        {"attaque2": [25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
         {"attaque4": [10,"slap"]}
       ]
     }
   },{
     pokemon: {
-      nom: "Mikael",
+      nom: "Elena",
       hp: 100,
-      image:"images/mik",
+      image:"images/perso03.png",
        abiliter: [
-        {"attaque1": [30,"stu un anime?"]},
-        {"attaque2":[25,"art de convaincre"]},
-        {"attaque3": [20,"coup de longboard"]},
+        {"attaque1": [30,"surprise"]},
+        {"attaque2":[25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
         {"attaque4": [10,"slap"]}
       ]
     }
   },{
     pokemon: {
-      nom: "Maïka",
+      nom: "Elie",
       hp: 100,
-      image:"images/maika",
+      image:"images/perso04.png",
        abiliter: [
-        {"attaque1": [30,"petite taille"]},
-        {"attaque2": [20,"hyperactivité"]},
-        {"attaque3": [10,"slap"]}
+        {"attaque1": [30,"neutre"]},
+        {"attaque2": [25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
+        {"attaque4": [10,"slap"]}
       ]
     }
   },{
     pokemon: {
-      nom: "Étienne",
+      nom: "Erwan",
       hp: 100,
-      image:"images/etienne",
+      image:"images/perso05.png",
        abiliter: [
-        {"attaque1": [30,"munch munch"]},
-        {"attaque2": [20,"backflip"]},
-        {"attaque3": [10,"slap"]}
+        {"attaque1": [30,"peur"]},
+        {"attaque2": [25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
+        {"attaque4": [10,"slap"]}
       ]
     }
   },{
     pokemon: {
-      nom: "Maélie",
+      nom: "Elisabeth",
       hp: 100,
-      image:"images/maelie",
+      image:"images/perso06.png",
        abiliter: [
-        {"attaque1": [30,"ceinture noir de karaté"]},
-        {"attaque2": [20,"coup de livre"]},
-        {"attaque3": [10,"slap"]}
+        {"attaque1": [30,"tristesse"]},
+        {"attaque2": [25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
+        {"attaque4": [10,"slap"]}
       ]
     }
   },{
     pokemon: {
-      nom: "Ariane",
+      nom: "Ethan",
       hp: 100,
-      image:"images/ariane",
+      image:"images/perso07.png",
        abiliter: [
-        {"attaque1": [30,"move d'impro"]},
-        {"attaque2": [20,"danse malaisante"]},
-        {"attaque3": [10,"slap"]}
+        {"attaque1": [30,"relaxe"]},
+        {"attaque2": [25,"coup de poing"]},
+        {"attaque3": [20,"coup de pied"]},
+        {"attaque4": [10,"slap"]}
       ]
     }
   }];
